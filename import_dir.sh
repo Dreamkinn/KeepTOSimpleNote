@@ -1,7 +1,5 @@
 #!/bin/bash
 
-root=$(pwd)/parsed
-mkdir $root
 
 for filename in *.json; do
     read -r -p "Do you want to import $filename ? [y/N] " response
@@ -20,4 +18,3 @@ for filename in *.json; do
     esac
 done
 
-rm -r parsed
