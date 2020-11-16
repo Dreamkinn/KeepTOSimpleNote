@@ -1,8 +1,9 @@
 # Import notes from Google Keep to SimpleNote
+Hey everyone, here are some very simple scripts to export your Google Keep notes to SimpleNote  
 ### Prerequisites : 
 * jq (https://stedolan.github.io/jq/)
 * sncli (https://github.com/insanum/sncli)
-## Dump your Keep notes
+## Export your Keep notes to an archive
 You can download the zip file containing all your notes at : 
 > https://takeout.google.com/settings/takeout/
 ## In the archive
@@ -12,7 +13,7 @@ You can download the zip file containing all your notes at :
 Enter your credentials in
 > vim ~/.snclirc
 
-### Script (very slow because of sncli)
+### Import notes to SimpleNote (very slow because of sncli)
 * If you want to import everything in the directory launch
 > yes | ./import_dir.sh
  * If you want to import a particular file lauch
