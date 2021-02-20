@@ -1,5 +1,5 @@
 # Import notes from Google Keep to SimpleNote
-Hey everyone, here are some very simple scripts to export your Google Keep notes to SimpleNote  
+Here are some very simple scripts to export your Google Keep notes to SimpleNote  
 ### Prerequisites : 
 * jq (https://stedolan.github.io/jq/)
 * sncli (https://github.com/insanum/sncli)
